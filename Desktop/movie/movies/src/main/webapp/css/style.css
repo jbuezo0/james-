@@ -1,0 +1,475 @@
+.header{
+  background: #1d1d1b;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+.red-button{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #1a1a1a;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-left: 80px;
+}
+
+.red-button:hover{
+  background-color: #1a1a1a;
+  border: 2px solid #e80000;
+}
+
+.logo-netflix{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.header-login{
+  color: white;
+  margin-right: 20px;
+}
+
+.header-search{
+  color: white;
+  margin-right: 10px;
+}
+
+.header-nav{
+  text-align: right;
+  margin-top: 22px;
+}
+
+.header-apartados{
+  word-spacing: 10px;
+  text-align: center;
+  margin-top: 22px;
+}
+
+.buttons{
+  color: white;
+  margin-right: 40px;
+}
+
+.body-up{
+  background: url('https://thenypost.files.wordpress.com/2014/10/6.jpg?quality=90&strip=all') no-repeat center top / cover;
+  background-size: 130%;
+  font-family: 'Raleway', sans-serif;
+  min-height: calc(100vh - 80px);
+}
+
+.whiplash-text{
+  color: white;
+}
+
+.big-tittle{
+  font-size: 80px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.lil-tittle{
+  margin-top: 60px;
+}
+
+.resumen-up{
+  font-size: 15px;
+  background: #1d1d1b;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+
+.body-agregadas{
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 40px;
+}
+
+.agregadas-tittle{
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.agregadas-peliculas{
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.agregadas-aclamadas{
+  text-align: right;
+}
+
+.agregadas-movies{
+  align-items: flex-end;
+  font-weight: 700;
+}
+
+.content{
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.movies-cuadro:hover .content{
+  opacity: .8;
+}
+
+.movies-rectangulo:hover .content{
+  opacity: .8;
+}
+
+.movies-rectangulo{
+  height: 500px;
+  display: block;
+  position: relative;
+}
+
+.movies-cuadro{
+  height: 300px;
+  display: block;
+  position: relative;
+}
+
+
+
+.tabla-titular-grande{
+  font-weight: 900;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.tabla-clases{
+  text-align: center;
+  font-weight: 700;
+}
+
+.tabla-black{
+  background: black;
+}
+
+.tabla-texto{
+  padding-left: 10px;
+}
+
+.lineas-tabla{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tabla-contenido{
+  text-align: center;
+}
+
+.footer{
+  background: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 40px;
+}
+
+.textos-footer{
+  margin-top: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.boton-idioma{
+  margin-top: 40px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.icono-uno{
+  margin-right: 20px;
+}
+
+.icono-dos{
+  margin-left: 20px;
+}
+
+
+
+*{
+  box-sizing:border-box;
+}
+
+body {
+  margin : 0;
+  padding : 0;
+  font-family:Verdana;
+}
+
+.banner {
+  width:100%;
+  height: 500px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  background-image: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+.cover__container{
+  width: 70%;
+  height: 80%;
+  margin-left:auto;
+  margin-right : auto;
+  margin-top:auto;
+  margin-bottom:auto;
+  display:flex;
+}
+
+.cover__image {
+  width: 20%;
+  margin-top:  auto;
+  margin-bottom:  auto;
+  padding: 14px;
+}
+.cover__image img {
+  width: 100%;
+  height: auto;
+}
+.cover__information {
+/*   background-color: red; */
+  width: 50%;
+  height: 50%;
+  margin-top:auto;
+  margin-bottom: auto;
+  color: #ffffff ;
+  
+}
+
+.cover__title {
+  font-size: 45px;
+    font-style: italic;
+
+}
+
+.cover__description {
+  font-size: 20px;
+  line-height:1.8;
+}
+.cover__descriptionb {
+  font-size: 20px;
+  line-height:1.8;
+      font-style: italic;
+
+}.cover__descriptionc {
+  font-size: 20px;
+  line-height:1.8;
+}
+
+.cover__tags {
+  width: 100%;
+  margin-top:10px;
+}
+
+.tag {
+  display:inline-blocK;
+  padding:10px;
+  background: #444959;
+}
+
+.tag > a{
+  color:white;
+  text-decoration:none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans'
+}
+@media only screen and (max-width: 978px) {
+  body {
+    background: #000;
+  }
+  .cover__image  {
+    display:none;
+  }
+
+  .cover__container {
+     width:90%;
+  }
+
+  .cover__information {
+    width: 100%;
+  }}
+ .body-tabla{
+  background: url('http://i63.tinypic.com/2414i1l.png') no-repeat 62% center / cover;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 40px;
+}
+
+.tabla-titular-grande{
+  font-weight: 900;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.tabla-clases{
+  text-align: center;
+  font-weight: 700;
+}
+
+.tabla-black{
+  background: black;
+}
+
+.tabla-texto{
+  padding-left: 10px;
+}
+
+.lineas-tabla{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tabla-contenido{
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*body {
+  background: #2E3740;
+  color: #435160;
+  font-family: "Open Sans", sans-serif;
+}*/
+
+h2 {
+  color: #6D7781;
+  font-family: "Sofia", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #435160;
+  text-decoration: none;
+}
+
+.login {
+  width: 350px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -175px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 350px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: #6D7781;
+  font-size: 16px;
+}
+input[type=checkbox] {
+  display: none;
+}
+
+label {
+  display: block;
+  position: absolute;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: transparent;
+  content: "";
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 3px solid #435160;
+}
+
+#agree:checked ~ label[for=agree] {
+  background: #435160;
+}
+
+input[type="submit"] {
+  background: #1FCE6D;
+  border: 0;
+  width: 350px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background: #16aa56;
+  animation-name: shake;
+}
+
+.forgot {
+  margin-top: 30px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+.forgot:hover {
+  margin-top: 30px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  color: #6D7781;
+}
+
+.agree {
+  padding: 30px 0px;
+  font-size: 12px;
+  text-indent: 25px;
+  line-height: 15px;
+}
+
+::-webkit-input-placeholder {
+  color: #435160;
+  font-size: 12px;
+}
+
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
